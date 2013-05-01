@@ -1,0 +1,42 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
+export QT_VER := 5.0
+export QT_VERSION := 5.0.2
+export QT_VERSION_TAG := 502
+
+%:
+	dh $@ --list-missing --parallel
+
+override_dh_auto_configure:
+	qmake
+
+override_dh_auto_build:
+	dh_auto_build -Smakefile -- docs
+
+override_dh_auto_install:
+	mkdir -p debian/tmp/usr/share/qt5/doc/qch
+	cp -a doc/qtdoc.qch debian/tmp/usr/share/qt5/doc/qch/
+	mkdir -p debian/tmp/usr/share/qt5/doc/src
+	cp -a doc/src/images debian/tmp/usr/share/qt5/doc/src/
+	mkdir -p debian/tmp/usr/share/qt5/doc/html
+	cp -a doc/qtdoc/* debian/tmp/usr/share/qt5/doc/html/
+	dh_auto_install
+	
+	# Remove bogus exec bits from some data files in mkspecs, docs, examples
+	# and demos
+	find debian/tmp/usr/share/qt5/ \
+		-perm /u+x,g+x,o+x -type f \
+		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
+		-exec chmod a-x {} \;
+
+override_dh_installdocs:
+	dh_installdocs --all LGPL_EXCEPTION.txt
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz

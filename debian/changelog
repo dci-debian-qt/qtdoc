@@ -1,0 +1,5 @@
+qtdoc-opensource-src (5.0.2-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #697509)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 01 May 2013 15:14:58 -0700
