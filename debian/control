@@ -37,7 +37,7 @@ Description: Qt 5 API Documentation
 Package: qt5-doc-html
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser | x-www-browser
+Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser
 Description: Qt 5 API documentation (HTML format)
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
