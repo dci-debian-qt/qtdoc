@@ -11,8 +11,8 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                qt5-default,
-               qtbase5-dev-tools,
-               qttools5-dev-tools,
+               qtbase5-dev-tools (>= 5.0.2~),
+               qttools5-dev-tools (>= 5.0.2~),
                libqt5sql5-sqlite
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
