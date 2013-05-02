@@ -16,6 +16,8 @@ Build-Depends: debhelper (>= 9),
                libqt5sql5-sqlite
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdoc.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtdoc.git;a=summary
 
 Package: qt5-doc
 Architecture: all
