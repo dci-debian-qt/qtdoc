@@ -28,21 +28,21 @@ Description: Qt 5 API Documentation
  is its rich set of widgets that provide standard GUI functionality.
  .
  Qt Documentation contains the offline documentation for Qt 5.
- This package contains the complete Qt 5 API documentation (new help format).
+ This package contains the complete Qt 5 API documentation (Qt's help format).
  .
- The documentation is provided in the new help format and manpage format;
- the new help format version can be viewed in conjunction with the Qt Assistant
- found in the qt4-dev-tools package.
+ The documentation is provided in the Qt's help format and manpage format;
+ the Qt's help format version can be viewed in conjunction with the Qt Assistant
+ found in the qttools5-dev-tools package.
 
 Package: qt5-doc-html
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser | x-www-browser
-Description: Qt 4 API documentation (HTML format)
+Description: Qt 5 API documentation (HTML format)
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the complete Qt 4 API documentation (HTML format).
+ This package contains the complete Qt 5 API documentation (HTML format).
  .
  The documentation is provided in HTML format.
 
