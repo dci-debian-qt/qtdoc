@@ -1,2 +1,2 @@
-usr/share/qt5/doc/qch
-usr/share/qt5/doc/src
+doc/qtdoc.qch usr/share/qt5/doc/qch
+doc/src/images/ usr/share/qt5/doc/src
