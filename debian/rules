@@ -21,14 +21,14 @@ override_dh_auto_build:
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_install:
+	dh_auto_install -- install_docs
+
 	# Remove bogus exec bits from some data files in mkspecs, docs, examples
 	# and demos
-	find doc/ \
+	find debian/tmp/usr/share/qt5/doc/ \
 		-perm /u+x,g+x,o+x -type f \
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;
-
-	dh_auto_install
 
 override_dh_install:
 	dh_install --fail-missing
