@@ -26,7 +26,9 @@ Build-Depends: debhelper (>= 9),
                qtsvg5-doc,
                qtsvg5-doc-html,
                qtwebkit5-doc,
-               qtwebkit5-doc-html
+               qtwebkit5-doc-html,
+               qtwebkit5-examples-doc,
+               qtwebkit5-examples-doc-html
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdoc.git
@@ -42,7 +44,8 @@ Depends: ${misc:Depends},
          qtmultimedia5-doc,
          qtscript5-doc,
          qtsvg5-doc,
-         qtwebkit5-doc
+         qtwebkit5-doc,
+         qtwebkit5-examples-doc
 Suggests: qtbase5-dev, qttools5-dev-tools
 Description: Qt 5 API Documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -65,7 +68,8 @@ Depends: ${misc:Depends},
          qtmultimedia5-doc-html,
          qtscript5-doc-html,
          qtsvg5-doc-html,
-         qtwebkit5-doc-html
+         qtwebkit5-doc-html,
+         qtwebkit5-examples-doc-html
 Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser
 Description: Qt 5 API documentation (HTML format)
  Qt is a cross-platform C++ application framework. Qt's primary feature
