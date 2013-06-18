@@ -9,12 +9,9 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
+               libqt5sql5-sqlite,
                qtbase5-dev (>= 5.0.2~),
                qtbase5-dev-tools (>= 5.0.2~),
-               qttools5-dev-tools (>= 5.0.2~),
-               libqt5sql5-sqlite,
-               qtxmlpatterns5-doc,
-               qtxmlpatterns5-doc-html,
                qtdeclarative5-doc,
                qtdeclarative5-doc-html,
                qtgraphicaleffects5-doc,
@@ -25,10 +22,13 @@ Build-Depends: debhelper (>= 9),
                qtscript5-doc-html,
                qtsvg5-doc,
                qtsvg5-doc-html,
+               qttools5-dev-tools (>= 5.0.2~),
                qtwebkit5-doc,
                qtwebkit5-doc-html,
                qtwebkit5-examples-doc,
-               qtwebkit5-examples-doc-html
+               qtwebkit5-examples-doc-html,
+               qtxmlpatterns5-doc,
+               qtxmlpatterns5-doc-html
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdoc.git
@@ -36,16 +36,16 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtdoc.git;a=summary
 
 Package: qt5-doc
 Architecture: all
-Depends: ${misc:Depends},
-         qtbase5-doc,
-         qtxmlpatterns5-doc,
+Depends: qtbase5-doc,
          qtdeclarative5-doc,
          qtgraphicaleffects5-doc,
          qtmultimedia5-doc,
          qtscript5-doc,
          qtsvg5-doc,
          qtwebkit5-doc,
-         qtwebkit5-examples-doc
+         qtwebkit5-examples-doc,
+         qtxmlpatterns5-doc,
+         ${misc:Depends}
 Suggests: qtbase5-dev, qttools5-dev-tools
 Description: Qt 5 API Documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60,16 +60,16 @@ Description: Qt 5 API Documentation
 
 Package: qt5-doc-html
 Architecture: all
-Depends: ${misc:Depends},
-         qtbase5-doc-html,
-         qtxmlpatterns5-doc-html,
+Depends: qtbase5-doc-html,
          qtdeclarative5-doc-html,
          qtgraphicaleffects5-doc-html,
          qtmultimedia5-doc-html,
          qtscript5-doc-html,
          qtsvg5-doc-html,
          qtwebkit5-doc-html,
-         qtwebkit5-examples-doc-html
+         qtwebkit5-examples-doc-html,
+         qtxmlpatterns5-doc-html,
+         ${misc:Depends}
 Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser
 Description: Qt 5 API documentation (HTML format)
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -78,4 +78,3 @@ Description: Qt 5 API documentation (HTML format)
  This package contains the complete Qt 5 API documentation (HTML format).
  .
  The documentation is provided in HTML format.
-
