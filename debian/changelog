@@ -1,5 +1,5 @@
-qtdoc-opensource-src (5.0.2-1) UNRELEASED; urgency=low
+qtdoc-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 03 Jun 2013 18:32:18 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 20 Jun 2013 20:45:35 -0300
