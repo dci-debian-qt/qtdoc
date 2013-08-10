@@ -1,6 +1,5 @@
-qtdoc-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtdoc-opensource-src (5.1.0-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Remove qtbase docs from build dependencies and dependencies of the
     packages. We are not currently building them.
@@ -8,7 +7,7 @@ qtdoc-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Remove qtwebkit-examples' docs from build dependencies and dependencies of
     the packages. We didn't get the repack ready on time.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Aug 2013 21:09:46 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 21:35:16 -0300
 
 qtdoc-opensource-src (5.0.2-1) experimental; urgency=low
 
