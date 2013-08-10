@@ -5,6 +5,8 @@ qtdoc-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Remove qtbase docs from build dependencies and dependencies themselves. We
     are not currently building them.
   * Update watch file.
+  * Remove qtwebkit-examples' docs from build dependencies and dependencies of the
+    packages. We didn't get the repack ready on time.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Aug 2013 21:09:46 -0300
 
