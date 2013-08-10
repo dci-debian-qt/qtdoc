@@ -1,6 +1,7 @@
-qtdoc-opensource-src (5.0.2-2) UNRELEASED; urgency=low
+qtdoc-opensource-src (5.1.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
   * Remove qtbase docs from build dependencies and dependencies themselves. We
     are not currently building them.
   * Update watch file.
