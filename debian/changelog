@@ -2,6 +2,7 @@ qtdoc-opensource-src (5.1.0-2) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Properly clean the build. Thanks Dmitry Shachnev!
+  * Change versions in rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 12:24:13 -0300
 
