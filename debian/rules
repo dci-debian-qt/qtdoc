@@ -39,9 +39,3 @@ override_dh_install:
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
-
-override_dh_builddeb:
-	# Do not compress the non-html packages with XZ, since the qdoc files
-	# are sqlite3 DBs
-	dh_builddeb $(addprefix -p,$(filter %-doc,$(shell dh_listpackages)))
-	dh_builddeb --remaining-packages -- -Zxz
