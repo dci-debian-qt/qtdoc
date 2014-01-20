@@ -9,6 +9,7 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Stop exporting versions in debian/rules, the package builds
     fine without that.
   * Bump required package versions to 5.2.0.
+  * Use canonical Vcs-Browser field.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 12:24:13 -0300
 
