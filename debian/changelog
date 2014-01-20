@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.1.0-2) UNRELEASED; urgency=low
+qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Properly clean the build. Thanks Dmitry Shachnev!
