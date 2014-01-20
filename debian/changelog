@@ -2,11 +2,12 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Properly clean the build. Thanks Dmitry Shachnev!
-  * Change versions in rules.
 
   [ Dmitry Shachnev ]
   * Drop the dh_compress hack, it no longer works now that xz
     is the default compression.
+  * Stop exporting versions in debian/rules, the package builds
+    fine without that.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 12:24:13 -0300
 
