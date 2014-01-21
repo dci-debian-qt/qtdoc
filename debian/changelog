@@ -8,6 +8,8 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
     is the default compression.
   * Stop exporting versions in debian/rules, the package builds
     fine without that.
+  * Drop --list-missing dh option, we already dh_install with
+    --fail-missing.
   * Bump required package versions to 5.2.0.
   * Use canonical Vcs-Browser field.
   * Bump Standards-Version to 3.9.5, no changes needed.
