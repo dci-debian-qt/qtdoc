@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
+qtdoc-opensource-src (5.2.0-1) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Properly clean the build. Thanks Dmitry Shachnev!
@@ -22,7 +22,7 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Use canonical Vcs-Browser field.
   * Bump Standards-Version to 3.9.5, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 12:24:13 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 24 Jan 2014 14:35:37 -0300
 
 qtdoc-opensource-src (5.1.0-1) experimental; urgency=low
 
