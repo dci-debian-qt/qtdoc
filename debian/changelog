@@ -4,6 +4,8 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Properly clean the build. Thanks Dmitry Shachnev!
   * Bump qttools' build dependencies to 5.2.0-7~ to ensure we are building
     against the version that reintroduced the documentation.
+  * Add qtwebkit5-examples-doc and qtwebkit5-examples-doc-html as build
+    dependencies and as dependencies of the respective packages.
 
   [ Dmitry Shachnev ]
   * Drop the dh_compress hack, it no longer works now that xz
