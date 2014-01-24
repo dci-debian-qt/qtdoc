@@ -2,6 +2,8 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Properly clean the build. Thanks Dmitry Shachnev!
+  * Bump qttools' build dependencies to 5.2.0-7~ to ensure we are building
+    against the version that reintroduced the documentation.
 
   [ Dmitry Shachnev ]
   * Drop the dh_compress hack, it no longer works now that xz
