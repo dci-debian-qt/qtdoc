@@ -12,6 +12,7 @@ Build-Depends: debhelper (>= 9),
                libqt5sql5-sqlite,
                qtbase5-dev (>= 5.2.0~),
                qtbase5-dev-tools (>= 5.2.0~),
+               qtbase5-doc-html,
                qtdeclarative5-doc,
                qtdeclarative5-doc-html,
                qtgraphicaleffects5-doc,
@@ -62,7 +63,8 @@ Description: Qt 5 API Documentation
 
 Package: qt5-doc-html
 Architecture: all
-Depends: qtdeclarative5-doc-html,
+Depends: qtbase5-doc-html,
+         qtdeclarative5-doc-html,
          qtgraphicaleffects5-doc-html,
          qtmultimedia5-doc-html,
          qtscript5-doc-html,

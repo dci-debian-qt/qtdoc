@@ -6,6 +6,9 @@ qtdoc-opensource-src (5.2.0-1) UNRELEASED; urgency=low
     against the version that reintroduced the documentation.
   * Add qtwebkit5-examples-doc and qtwebkit5-examples-doc-html as build
     dependencies and as dependencies of the respective packages.
+  * Add qtbase5-doc-html as build dependency and as a dependency of the
+    respective package. We will add qtbase5-doc as soon as it gets trough
+    the NEW queue.
 
   [ Dmitry Shachnev ]
   * Drop the dh_compress hack, it no longer works now that xz
