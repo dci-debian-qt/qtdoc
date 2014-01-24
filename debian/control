@@ -32,6 +32,8 @@ Build-Depends: debhelper (>= 9),
                qtwebkit5-doc-html,
                qtwebkit5-examples-doc,
                qtwebkit5-examples-doc-html,
+               qtx11extras5-doc,
+               qtx11extras5-doc-html,
                qtxmlpatterns5-doc,
                qtxmlpatterns5-doc-html
 Standards-Version: 3.9.5
@@ -50,6 +52,7 @@ Depends: qtdeclarative5-doc,
          qttools5-doc,
          qtwebkit5-doc,
          qtwebkit5-examples-doc,
+         qtx11extras5-doc,
          qtxmlpatterns5-doc,
          ${misc:Depends}
 Suggests: qtbase5-dev, qttools5-dev-tools
@@ -76,6 +79,7 @@ Depends: qtbase5-doc-html,
          qttools5-doc-html,
          qtwebkit5-doc-html,
          qtwebkit5-examples-doc-html,
+         qtx11extras5-doc-html,
          qtxmlpatterns5-doc-html,
          ${misc:Depends}
 Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser
