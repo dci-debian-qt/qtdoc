@@ -12,6 +12,7 @@ Build-Depends: debhelper (>= 9),
                libqt5sql5-sqlite,
                qtbase5-dev (>= 5.2.0~),
                qtbase5-dev-tools (>= 5.2.0~),
+               qtbase5-doc,
                qtbase5-doc-html,
                qtdeclarative5-doc,
                qtdeclarative5-doc-html,
@@ -43,7 +44,8 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtdoc.git
 
 Package: qt5-doc
 Architecture: all
-Depends: qtdeclarative5-doc,
+Depends: qtbase5-doc,
+         qtdeclarative5-doc,
          qtgraphicaleffects5-doc,
          qtmultimedia5-doc,
          qtscript5-doc,
