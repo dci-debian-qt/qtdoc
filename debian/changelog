@@ -4,9 +4,10 @@ qtdoc-opensource-src (5.2.0-2) unstable; urgency=medium
   * Depend on qtbase5-doc to enable qtbase docs (closes: #722603).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Do not build depend on compressed doc, only the html packages are needed.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 01 Feb 2014 16:16:31 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 01 Feb 2014 16:20:58 -0300
 
 qtdoc-opensource-src (5.2.0-1) experimental; urgency=low
 
