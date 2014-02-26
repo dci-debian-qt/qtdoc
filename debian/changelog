@@ -1,11 +1,10 @@
-qtdoc-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.2.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Add qtsensors-doc[-html] as build dependency and dependency of the
     respective doc packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Feb 2014 15:38:16 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Feb 2014 15:47:10 -0300
 
 qtdoc-opensource-src (5.2.0-2) unstable; urgency=medium
 
