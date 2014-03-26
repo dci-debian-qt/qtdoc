@@ -1,5 +1,8 @@
 qtdoc-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add qtpositioning5-doc[-html] as build dependency and dependency if the
+    respective doc packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Mar 2014 08:47:28 -0300
 
