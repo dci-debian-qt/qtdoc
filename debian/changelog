@@ -3,13 +3,14 @@ qtdoc-opensource-src (5.2.1-3) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add qtquickcontrols5-doc[-html] as build dependency and dependency of the
     respective doc packages.
+  * Fix typo in previous changelog entry.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Mar 2014 21:08:00 -0300
 
 qtdoc-opensource-src (5.2.1-2) unstable; urgency=medium
 
   * Upload to unstable.
-  * Add qtpositioning5-doc[-html] as build dependency and dependency if the
+  * Add qtpositioning5-doc[-html] as build dependency and dependency of the
     respective doc packages.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Mar 2014 09:01:56 -0300
