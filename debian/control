@@ -35,7 +35,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtdoc.git
 
 Package: qt5-doc
 Architecture: all
-Depends: qtbase5-doc,
+Depends: qtbase5-doc (>= 5.3.2+dfsg~),
          qtdeclarative5-doc,
          qtgraphicaleffects5-doc,
          qtmultimedia5-doc,
@@ -65,7 +65,7 @@ Description: Qt 5 API Documentation
 
 Package: qt5-doc-html
 Architecture: all
-Depends: qtbase5-doc-html,
+Depends: qtbase5-doc-html (>= 5.3.2+dfsg~),
          qtdeclarative5-doc-html,
          qtgraphicaleffects5-doc-html,
          qtmultimedia5-doc-html,

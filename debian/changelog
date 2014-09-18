@@ -3,6 +3,8 @@ qtdoc-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Version build dependencies so as to be sure the correct ones are used at
     build time.
+  * Make packages depend upon a versioned dependency on qtbase-doc[-html]. In
+    this way we ensure it transitions at the same time than qtbase.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Sep 2014 18:09:32 -0300
 
