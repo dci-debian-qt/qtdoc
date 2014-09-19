@@ -5,6 +5,8 @@ qtdoc-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
     build time.
   * Make packages depend upon a versioned dependency on qtbase-doc[-html]. In
     this way we ensure it transitions at the same time than qtbase.
+  * Add qtenginio and qtwebsocket's doc[-html] as build dependencies and
+    dependencies of the respective doc packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Sep 2014 18:09:32 -0300
 
