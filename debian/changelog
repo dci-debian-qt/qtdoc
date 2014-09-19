@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.3.2-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Version build dependencies so as to be sure the correct ones are used at
@@ -14,7 +14,7 @@ qtdoc-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   * Update Vcs-Browser field to point to cgit interface.
   * Update debian/copyright for new release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Sep 2014 15:42:19 +0400
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 19 Sep 2014 15:42:19 +0400
 
 qtdoc-opensource-src (5.3.0-2) unstable; urgency=medium
 
