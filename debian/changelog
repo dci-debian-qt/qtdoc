@@ -12,6 +12,7 @@ qtdoc-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Add myself to Uploaders.
   * Update Vcs-Browser field to point to cgit interface.
+  * Update debian/copyright for new release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Sep 2014 15:42:19 +0400
 

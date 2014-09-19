@@ -3,7 +3,7 @@ Upstream-Name: qtdoc-opensource-src
 Source: http://releases.qt-project.org/qt5/*/submodules/
 
 Files: *
-Copyright: 2013 Digia Plc and/or its subsidiary(-ies)
+Copyright: 2013-2014 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
 Files: debian/*
@@ -17,17 +17,25 @@ License: LGPL-2.1
 
 Files: tools/pngdumper/* tests/system/auto/tst_imagecompare.cpp tests/system/auto/tst_imagecompare.h tests/system/auto/imagecompare.cpp tests/system/auto/imagecompare.h tests/system/auto/main.cpp tests/auto/tst_qtdoc.cpp
 Copyright: 2013 Digia Plc and/or its subsidiary(-ies)
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: tools/pngdumper/*.qml
 Copyright: 2013 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
 Files: *.qdoc
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
+Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies).
 License: GFDL-NIV-1.3
 
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
+Files: doc/src/platforms/*blackberry.qdoc
+Copyright: 2014 BlackBerry Limited.
+License: GFDL-NIV-1.3
+
+Files: doc/src/development/cmake-manual.qdoc
+Copyright: 2012 Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+License: GFDL-NIV-1.3
+
+License: LGPL-2.1 with Digia-1.1 exception
  GNU Lesser General Public License version 2.1:
  This file may be used under the terms of the GNU Lesser General Public
  License version 2.1 as published by the Free Software Foundation and
