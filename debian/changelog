@@ -1,3 +1,7 @@
+qtdoc-opensource-src (5.3.2-3~bpo70+1) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Oct 2014 15:21:01 -0300
+
 qtdoc-opensource-src (5.3.2-3) unstable; urgency=medium
 
   * qtbase-doc is built in qttools which doesn't has dfsg in it's version, so
