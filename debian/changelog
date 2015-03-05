@@ -1,11 +1,10 @@
-qtdoc-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt (build-)dependencies to 5.4.1.
   * Update watch and copyright to point to https://download.qt.io/.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 12:18:36 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 05 Mar 2015 19:10:41 +0300
 
 qtdoc-opensource-src (5.4.0-1) experimental; urgency=medium
 
