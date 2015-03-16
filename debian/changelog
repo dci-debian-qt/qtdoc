@@ -84,7 +84,7 @@ qtdoc-opensource-src (5.2.1-2) unstable; urgency=medium
 qtdoc-opensource-src (5.2.1-1) experimental; urgency=medium
 
   * New upstream release.
-  * Add qtsensors-doc[-html] as build dependency and dependency of the
+  * Add qtsensors5-doc[-html] as build dependency and dependency of the
     respective doc packages.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Feb 2014 15:47:10 -0300
