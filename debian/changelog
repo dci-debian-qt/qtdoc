@@ -1,6 +1,5 @@
-qtdoc-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.5.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update build-dependencies for Qt 5.5.0.
     - Remove qtenginio, it is no longer developed and pending deprecation.
@@ -8,7 +7,7 @@ qtdoc-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Update company name in qt5-doc-html.doc-base.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2015 15:25:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 30 Aug 2015 15:56:16 +0300
 
 qtdoc-opensource-src (5.4.2-2) unstable; urgency=medium
 
