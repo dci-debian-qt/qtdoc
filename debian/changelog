@@ -6,6 +6,7 @@ qtdoc-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
     - Remove qtenginio, it is no longer developed and pending deprecation.
     - qtpositioning-doc[-html] packages were renamed to qtlocation-doc[-html].
   * Update debian/copyright.
+  * Update company name in qt5-doc-html.doc-base.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2015 15:25:57 +0300
 
