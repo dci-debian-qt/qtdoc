@@ -2,6 +2,9 @@ qtdoc-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update build-dependencies for Qt 5.5.0.
+    - Remove qtenginio, it is no longer developed and pending deprecation.
+    - qtpositioning-doc[-html] packages were renamed to qtlocation-doc[-html].
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2015 15:25:57 +0300
 
