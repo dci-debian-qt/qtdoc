@@ -1,3 +1,7 @@
+qtdoc-opensource-src (5.5.0-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 13:23:03 -0300
+
 qtdoc-opensource-src (5.5.0-2) experimental; urgency=medium
 
   * Add qt3d5-doc[-html] as build-dependency and dependency of the respective
