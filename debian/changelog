@@ -3,6 +3,8 @@ qtdoc-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
+  * Temporarily remove qt3d-doc[-html] packages from [Build-]dependencies
+    until it gets accepted from the NEW queue.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 13:23:03 -0300
 
