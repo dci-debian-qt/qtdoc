@@ -1,5 +1,7 @@
 qtdoc-opensource-src (5.5.1-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Set Priority to extra because all Qt submodules doc packages are extra.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jan 2016 20:12:28 +0300
 

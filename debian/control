@@ -1,6 +1,6 @@
 Source: qtdoc-opensource-src
 Section: doc
-Priority: optional
+Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
