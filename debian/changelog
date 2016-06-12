@@ -10,6 +10,10 @@ qtdoc-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Update Standards-Version, no changes needed.
   * Use https repo URLs.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+    - Bump Qt i[build] dependencies.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jan 2016 20:12:28 +0300
 
 qtdoc-opensource-src (5.5.1-1) unstable; urgency=medium
