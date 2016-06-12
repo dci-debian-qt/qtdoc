@@ -30,7 +30,7 @@ Build-Depends: debhelper (>= 9),
                qtwebsockets5-doc-html (>= 5.6.1~),
                qtx11extras5-doc-html (>= 5.6.1~),
                qtxmlpatterns5-doc-html (>= 5.6.1~)
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdoc.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdoc.git
