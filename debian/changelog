@@ -1,10 +1,9 @@
-qtdoc-opensource-src (5.7.1~20161122-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.7.1~20161122-1) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt dependencies to 5.7.1~20161021.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Nov 2016 11:46:29 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 30 Nov 2016 11:51:28 -0300
 
 qtdoc-opensource-src (5.6.1-1) unstable; urgency=medium
 
