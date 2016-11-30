@@ -8,27 +8,27 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
-               libqt5sql5-sqlite (>= 5.6.1+dfsg~),
-               qtbase5-dev (>= 5.6.1+dfsg~),
-               qtbase5-dev-tools (>= 5.6.1+dfsg~),
-               qtbase5-doc-html (>= 5.6.1+dfsg~),
-               qtconnectivity5-doc-html (>= 5.6.1~),
-               qtdeclarative5-doc-html (>= 5.6.1~),
-               qtgraphicaleffects5-doc-html (>= 5.6.1~),
-               qtlocation5-doc-html (>= 5.6.1~),
-               qtmultimedia5-doc-html (>= 5.6.1~),
-               qtquickcontrols5-doc-html (>= 5.6.1~),
-               qtscript5-doc-html (>= 5.6.1+dfsg~),
-               qtsensors5-doc-html (>= 5.6.1~),
-               qtserialport5-doc-html (>= 5.6.1~),
-               qtsvg5-doc-html (>= 5.6.1~),
-               qttools5-dev-tools (>= 5.6.1~),
-               qttools5-doc-html (>= 5.6.1~),
-               qtwebkit5-doc-html (>= 5.6.1+dfsg~),
+               libqt5sql5-sqlite (>= 5.7.1~20161021+dfsg~),
+               qtbase5-dev (>= 5.7.1~20161021+dfsg~),
+               qtbase5-dev-tools (>= 5.7.1~20161021+dfsg~),
+               qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
+               qtconnectivity5-doc-html (>= 5.7.1~20161021~),
+               qtdeclarative5-doc-html (>= 5.7.1~20161021~),
+               qtgraphicaleffects5-doc-html (>= 5.7.1~20161021~),
+               qtlocation5-doc-html (>= 5.7.1~20161021~),
+               qtmultimedia5-doc-html (>= 5.7.1~20161021~),
+               qtquickcontrols5-doc-html (>= 5.7.1~20161021~),
+               qtscript5-doc-html (>= 5.7.1~20161021+dfsg~),
+               qtsensors5-doc-html (>= 5.7.1~20161021~),
+               qtserialport5-doc-html (>= 5.7.1~20161021~),
+               qtsvg5-doc-html (>= 5.7.1~20161021~),
+               qttools5-dev-tools (>= 5.7.1~20161021~),
+               qttools5-doc-html (>= 5.7.1~20161021~),
+               qtwebkit5-doc-html (>= 5.7.1~20161021+dfsg~),
                qtwebkit5-examples-doc-html,
-               qtwebsockets5-doc-html (>= 5.6.1~),
-               qtx11extras5-doc-html (>= 5.6.1~),
-               qtxmlpatterns5-doc-html (>= 5.6.1~)
+               qtwebsockets5-doc-html (>= 5.7.1~20161021~),
+               qtx11extras5-doc-html (>= 5.7.1~20161021~),
+               qtxmlpatterns5-doc-html (>= 5.7.1~20161021~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdoc.git
@@ -36,7 +36,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdoc.git
 
 Package: qt5-doc
 Architecture: all
-Depends: qtbase5-doc (>= 5.6.1~),
+Depends: qtbase5-doc (>= 5.7.1~20161021~),
          qtconnectivity5-doc,
          qtdeclarative5-doc,
          qtgraphicaleffects5-doc,
@@ -68,7 +68,7 @@ Description: Qt 5 API Documentation
 
 Package: qt5-doc-html
 Architecture: all
-Depends: qtbase5-doc-html (>= 5.6.1+dfsg~),
+Depends: qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
          qtconnectivity5-doc-html,
          qtdeclarative5-doc-html,
          qtgraphicaleffects5-doc-html,
