@@ -8,12 +8,12 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
-               libqt5sql5-sqlite (>= 5.7.1~20161021+dfsg~),
-               qtbase5-dev (>= 5.7.1~20161021+dfsg~),
-               qtbase5-dev-tools (>= 5.7.1~20161021+dfsg~),
-               qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
+               libqt5sql5-sqlite (>= 5.7.1+dfsg~),
+               qtbase5-dev (>= 5.7.1+dfsg~),
+               qtbase5-dev-tools (>= 5.7.1+dfsg~),
+               qtbase5-doc-html (>= 5.7.1+dfsg~),
                qtconnectivity5-doc-html (>= 5.7.1~20161021~),
-               qtdeclarative5-doc-html (>= 5.7.1~20161021~),
+               qtdeclarative5-doc-html (>= 5.7.1~),
                qtgraphicaleffects5-doc-html (>= 5.7.1~20161021~),
                qtlocation5-doc-html (>= 5.7.1~20161021~),
                qtmultimedia5-doc-html (>= 5.7.1~20161021~),
@@ -36,7 +36,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdoc.git
 
 Package: qt5-doc
 Architecture: all
-Depends: qtbase5-doc (>= 5.7.1~20161021~),
+Depends: qtbase5-doc (>= 5.7.1~),
          qtconnectivity5-doc,
          qtdeclarative5-doc,
          qtgraphicaleffects5-doc,
@@ -68,7 +68,7 @@ Description: Qt 5 API Documentation
 
 Package: qt5-doc-html
 Architecture: all
-Depends: qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
+Depends: qtbase5-doc-html (>= 5.7.1+dfsg~),
          qtconnectivity5-doc-html,
          qtdeclarative5-doc-html,
          qtgraphicaleffects5-doc-html,
