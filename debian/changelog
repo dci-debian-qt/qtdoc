@@ -3,6 +3,7 @@ qtdoc-opensource-src (5.7.1-2) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add new modules: qt3d, qtquickcontrols2, qtwayland, qtwebchannel and
     qtwebengine.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2016 10:22:47 +0300
 
