@@ -1,3 +1,9 @@
+qtdoc-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:50:09 -0500
+
 qtdoc-opensource-src (5.7.1-2) unstable; urgency=medium
 
   * Add new modules: qt3d, qtquickcontrols2, qtwayland, qtwebchannel and
