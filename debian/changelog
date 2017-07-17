@@ -1,7 +1,11 @@
-qtdoc-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
   * Add myself to Uploaders.
+
+  [ Dmitry Shachnev ]
+  * Bump Qt build-dependencies to 5.9.1.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:50:09 -0500
 
