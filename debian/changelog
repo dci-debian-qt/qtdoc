@@ -6,6 +6,7 @@ qtdoc-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Bump Qt build-dependencies to 5.9.1.
+  * Add new module: qtcharts.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:50:09 -0500
 
