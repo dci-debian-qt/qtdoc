@@ -7,6 +7,8 @@ qtdoc-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Bump Qt build-dependencies to 5.9.1.
   * Add new module: qtcharts.
+  * Drop debian/qt5-doc-html.links, all Qt documentation should be in the
+    same directory to avoid broken links (closes: #858615).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:50:09 -0500
 
