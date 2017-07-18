@@ -11,6 +11,7 @@ qtdoc-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
     same directory to avoid broken links (closes: #858615).
   * Bump Standards-Version to 4.0.0, no changes needed.
   * Bump years in debian/copyright.
+  * Stop overriding dh_installdocs. LGPL_EXCEPTION.txt no longer exists.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:50:09 -0500
 
