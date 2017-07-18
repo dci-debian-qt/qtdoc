@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.9.1-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -13,7 +13,7 @@ qtdoc-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   * Bump years in debian/copyright.
   * Stop overriding dh_installdocs. LGPL_EXCEPTION.txt no longer exists.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 12 Jun 2017 23:50:09 -0500
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 18 Jul 2017 11:54:29 +0300
 
 qtdoc-opensource-src (5.7.1-2) unstable; urgency=medium
 
