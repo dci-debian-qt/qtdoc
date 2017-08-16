@@ -1,10 +1,10 @@
-qtdoc-opensource-src (5.9.1-2) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.9.1-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Release to unstable.
   * Remove Qt Speech from the list of available doc, it is still experimental
     material.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Aug 2017 15:35:48 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 15:37:35 -0300
 
 qtdoc-opensource-src (5.9.1-1) experimental; urgency=medium
 
