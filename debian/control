@@ -1,6 +1,5 @@
 Source: qtdoc-opensource-src
 Section: doc
-Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
@@ -37,7 +36,7 @@ Build-Depends: debhelper (>= 10.3),
                qtwebview5-doc-html (>= 5.9.2~),
                qtx11extras5-doc-html (>= 5.9.2~),
                qtxmlpatterns5-doc-html (>= 5.9.2~)
-Standards-Version: 4.0.0
+Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdoc.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdoc.git
