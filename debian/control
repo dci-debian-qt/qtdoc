@@ -34,6 +34,7 @@ Build-Depends: debhelper (>= 9),
                qtwebkit5-doc-html (>= 5.9.2+dfsg~),
                qtwebkit5-examples-doc-html,
                qtwebsockets5-doc-html (>= 5.9.2~),
+               qtwebview5-doc-html (>= 5.9.2~),
                qtx11extras5-doc-html (>= 5.9.2~),
                qtxmlpatterns5-doc-html (>= 5.9.2~)
 Standards-Version: 4.0.0
@@ -64,6 +65,7 @@ Depends: qt3d5-doc,
          qtwebkit5-doc,
          qtwebkit5-examples-doc,
          qtwebsockets5-doc,
+         qtwebview5-doc,
          qtx11extras5-doc,
          qtxmlpatterns5-doc,
          ${misc:Depends}
@@ -102,6 +104,7 @@ Depends: qt3d5-doc-html,
          qtwebkit5-doc-html,
          qtwebkit5-examples-doc-html,
          qtwebsockets5-doc-html,
+         qtwebview5-doc-html,
          qtx11extras5-doc-html,
          qtxmlpatterns5-doc-html,
          ${misc:Depends}
