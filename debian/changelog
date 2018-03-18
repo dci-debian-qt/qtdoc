@@ -9,6 +9,7 @@ qtdoc-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Update debian/watch to reflect the upstream tarball rename.
   * Bump all of the build dependencies to 5.10.1.
   * Add the qtvirtualkeyboard module.
+  * Add my name to the copyright file for debian/.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 17 Mar 2018 19:09:04 -0500
 
