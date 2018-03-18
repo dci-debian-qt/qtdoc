@@ -3,6 +3,9 @@ qtdoc-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-version to 4.1.3, and change the priority from extra
     to optional.
+  * Bump debhelper compat to 11:
+    - dh_install -> dh_missing.
+    - Remove --parallel, which is redundant.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 17 Mar 2018 19:09:04 -0500
 
