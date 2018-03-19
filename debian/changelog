@@ -14,6 +14,25 @@ qtdoc-opensource-src (5.10.1-1) experimental; urgency=medium
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 19 Mar 2018 16:52:11 -0500
 
+qtdoc-opensource-src (5.9.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Add new module: qtwebview.
+  * Use debhelper compat level 10 and dh_missing.
+  * Set priority to optional instead of deprecated extra.
+  * Bump Standards-Version to 4.1.1.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 22:26:26 +0300
+
+qtdoc-opensource-src (5.9.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+  * Remove Qt Speech from the list of available doc, it is still experimental
+    material.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 15:37:35 -0300
+
 qtdoc-opensource-src (5.9.1-1) experimental; urgency=medium
 
   [ Simon Quigley ]
