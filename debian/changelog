@@ -10,6 +10,7 @@ qtdoc-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Bump all of the build dependencies to 5.10.1.
   * Add the qtvirtualkeyboard module.
   * Add my name to the copyright file for debian/.
+  * Update Vcs-* to reflect the move to Salsa.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 17 Mar 2018 19:09:04 -0500
 
