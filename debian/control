@@ -71,7 +71,8 @@ Depends: qt3d5-doc,
          qtx11extras5-doc,
          qtxmlpatterns5-doc,
          ${misc:Depends}
-Suggests: qtbase5-dev, qttools5-dev-tools
+Recommends: qt5-assistant
+Suggests: qtbase5-dev
 Description: Qt 5 API Documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -111,7 +112,7 @@ Depends: qt3d5-doc-html,
          qtx11extras5-doc-html,
          qtxmlpatterns5-doc-html,
          ${misc:Depends}
-Suggests: qtbase5-dev, qttools5-dev-tools, w3m | www-browser
+Suggests: qtbase5-dev, w3m | www-browser
 Description: Qt 5 API documentation (HTML format)
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
