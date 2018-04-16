@@ -1,13 +1,13 @@
-qtdoc-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.10.1-2) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Remove unneeded code from debian/rules.
-  * Recommend qt5-assistant instead of recommending qttools5-dev-tools.
+  * Recommend qt5-assistant instead of suggesting qttools5-dev-tools.
   * Bump Standards-Version to 4.1.4, no changes needed.
   * Drop explicit build-dependency on libqt5sql5-sqlite.
   * Use https for the Format field in debian/copyright.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Mar 2018 20:12:34 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 16 Apr 2018 10:20:29 +0300
 
 qtdoc-opensource-src (5.10.1-1) experimental; urgency=medium
 
