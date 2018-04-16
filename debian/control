@@ -9,7 +9,6 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 11),
-               libqt5sql5-sqlite (>= 5.10.1+dfsg~),
                qt3d5-doc-html (>= 5.10.1+dfsg~),
                qtbase5-dev (>= 5.10.1+dfsg~),
                qtbase5-dev-tools (>= 5.10.1+dfsg~),
