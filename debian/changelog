@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.9.5-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * Update Vcs-* to reflect the move to Salsa.
