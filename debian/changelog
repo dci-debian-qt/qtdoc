@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.11.1-1) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
@@ -9,7 +9,7 @@ qtdoc-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump Standards-Version to 4.2.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Jul 2018 11:01:40 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 25 Aug 2018 14:46:10 +0300
 
 qtdoc-opensource-src (5.10.1-2) unstable; urgency=medium
 
