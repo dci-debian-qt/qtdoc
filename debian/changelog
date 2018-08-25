@@ -7,6 +7,7 @@ qtdoc-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Drop Qt WebKit from the list of dependencies.
   * Update debian/copyright.
+  * Bump Standards-Version to 4.2.0, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Jul 2018 11:01:40 -0300
 
