@@ -4,6 +4,9 @@ qtdoc-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt dependencies.
 
+  [ Dmitry Shachnev ]
+  * Drop Qt WebKit from the list of dependencies.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Jul 2018 11:01:40 -0300
 
 qtdoc-opensource-src (5.10.1-2) unstable; urgency=medium
