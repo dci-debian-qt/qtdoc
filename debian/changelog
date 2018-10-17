@@ -4,6 +4,7 @@ qtdoc-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Update debian/copyright.
+  * Bump Standards-Version to 4.2.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2018 16:47:33 +0300
 

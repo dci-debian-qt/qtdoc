@@ -35,7 +35,7 @@ Build-Depends: debhelper (>= 11),
                qtwebsockets5-doc-html (>= 5.11.2~),
                qtx11extras5-doc-html (>= 5.11.2~),
                qtxmlpatterns5-doc-html (>= 5.11.2~)
-Standards-Version: 4.2.0
+Standards-Version: 4.2.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtdoc.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtdoc
