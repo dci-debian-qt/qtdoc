@@ -1,4 +1,4 @@
-qtdoc-opensource-src (5.11.3-1) UNRELEASED; urgency=medium
+qtdoc-opensource-src (5.11.3-1) unstable; urgency=medium
 
   [ Simon Quigley ]
   * Change my email to tsimonq2@debian.org now that I am a Debian Developer.
@@ -7,7 +7,7 @@ qtdoc-opensource-src (5.11.3-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Dec 2018 01:10:37 -0600
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Dec 2018 17:19:47 -0300
 
 qtdoc-opensource-src (5.11.2-1) unstable; urgency=medium
 
